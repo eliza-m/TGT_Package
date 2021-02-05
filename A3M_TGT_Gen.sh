@@ -279,7 +279,7 @@ a3m_file=$relnam.a3m
 if [ ! -s "$out_root/$a3m_file" ] || [ $force -eq 1 ]
 then
 	#---- this is the default home ----#
-	HHSUITE=hhsuite/build/
+	HHSUITE=$home/hhsuite/build/
 	#---- run HHpred (v2 or v3) ----------#
 	if [ "$hhsuite" == "hhsuite2" ] || [ "$hhsuite" == "hhsuite3" ]
 	then
