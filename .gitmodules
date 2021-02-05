@@ -1,0 +1,4 @@
+[submodule "RaptorX-SS8"]
+	path = RaptorX-SS8
+	url = https://github.com/eliza-m/RaptorX-SS8.git
+	branch = master
